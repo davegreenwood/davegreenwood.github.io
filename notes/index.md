@@ -1,1 +1,1 @@
-[sshfs][sshfs.md]
+[sshfs](sshfs.md)
