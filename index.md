@@ -1,6 +1,4 @@
 
-## Notes on GitHub
-
-A few pages as personal reminders - mostly just small scripts and workflows.
-
-[Notes](notes)
+## Notes on GitHub -  mostly just small scripts and workflows.
+* #### [Installing and using *SSHFS*](notes/sshfs.md)
+* #### [Setting up GitHub pages](notes/github-io.md)
