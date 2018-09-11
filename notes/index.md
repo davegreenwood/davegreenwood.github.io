@@ -1,3 +1,3 @@
-## Notes
+# Notes
 
-* [*SSHFS*](sshfs.md) Installing and using.
+#### [Installing and using *SSHFS*](sshfs.md)
