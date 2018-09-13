@@ -1,4 +1,4 @@
-# Using GitHub to directly publish Markdown files.
+# Using GitHub to directly publish Markdown files
 
 GitHub now allows direct publishing of markdown files [markdown files](https://blog.github.com/2016-12-09-publishing-with-github-pages-now-as-easy-as-1-2-3/).
 
