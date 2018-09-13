@@ -1,10 +1,11 @@
-# Using SSHFS to mount drives on a heterogeneous network.
+# Using SSHFS to mount drives on a heterogeneous network
 
 It is not always possible to create shared folders or drives - especially
 with the correct protocol. If connection via ssh is possible, then a drive,
 or any directory, can be mounted using *SSHFS*.
 
 ## Installation
+
 SSHFS needs to be installed on the client machine
 
 ### Linux
@@ -34,4 +35,3 @@ In fact, sudo is not necessary to mount in the user home directory, but sudo
 is needed to dismount the drive. This is done in the standard way -
 
     sudo umount ~/remote
-
