@@ -5,3 +5,4 @@
 * [Setting up GitHub pages](notes/github-io.md)
 * [Renaming files in a folder](notes/rename-files.md)
 * [BIG-IP Edge Client VPN connection](notes/big-ip.md)
+* [Install dlib for python from source](notes/install-dlib.md)
