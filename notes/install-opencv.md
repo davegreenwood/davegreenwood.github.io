@@ -17,7 +17,8 @@ First, find the installation of the libs
 
 Now link to the python interpreter:
 
-    ln -s /usr/local/lib/python2.7/site-packages/cv2.so \ /Users/Shared/anaconda/lib/python2.7/site-packages/cv2.so
+    ln -s /usr/local/lib/python2.7/site-packages/cv2.so \ 
+    /Users/Shared/anaconda/lib/python2.7/site-packages/cv2.so
 
 If using a virtual environment, link to that too. For python 3, rename the link to `cv2.so`.
 
