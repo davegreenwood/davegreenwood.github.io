@@ -12,7 +12,7 @@ And the same for the user:
 
     echo "user" | openssl rsautl -encrypt -inkey ~/.ssh/id_rsa -out ~/.vpn/vpn-usr
 
-For maximum paranoia, delete bash history. Then, in a script to establish the connection, read the encoded files and pass them to te connect command.
+For maximum paranoia, delete bash history. Then, in a script to establish the connection, read the encoded files and pass them to the connect command.
 
     U=`openssl rsautl -decrypt -inkey ~/.ssh/id_rsa -in ~/.vpn/vpn-usr`
     P=`openssl rsautl -decrypt -inkey ~/.ssh/id_rsa -in ~/.vpn/vpn-pwd`
