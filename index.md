@@ -8,3 +8,4 @@
 * [Install dlib for python from source](notes/install-dlib.md)
 * [Install openCV on Mac](notes/install-opencv.md)
 * [Force OS X code signing](notes/force-osx-codesign.md)
+* [Speed up Maya start](notes/maya-env-disable.md)
