@@ -9,3 +9,4 @@
 * [Install openCV on Mac](notes/install-opencv.md)
 * [Force OS X code signing](notes/force-osx-codesign.md)
 * [Speed up Maya start](notes/maya-env-disable.md)
+* [Useful Linux Commands](notes/linux-useful.md)
