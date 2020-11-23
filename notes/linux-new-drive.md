@@ -87,3 +87,22 @@ and create an entry in `/etc/fstab`:
     /dev/disk/by-id/ata-TOSHIBA_HDWD260_9061S19US5FH-part1 /mnt/parity0   ext4   defaults   0   0
 
 finally, `sudo mount -a`, then `df -h `should show the new drive mounted.
+
+
+## From an existing drive - parted interactive
+
+To completely refresh a drive for brand new use, do the following:
+
+1. start parted by running sudo parted /dev/sda
+
+2. find any existing partitions by running print
+
+3. remove existing partitions by running rm 1 replacing 1 with the partition number you want to remove. Then repeat for all remaining partitions on the disk.
+
+4. reset the disklabel by running mklabel gpt I use the gpt label type but there are others.
+
+5. Create new partitions by running mkpart This will run you through the create partition wizard. The start and end points are defaulted to sectors. You can change this by running the unit command before you run mkpart This way you can specify it in GB or TB or MB etc.
+
+6. check your results using print to view your new partition table info
+
+7. You then need to format the partitions as above.
