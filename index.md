@@ -11,3 +11,4 @@
 * [Speed up Maya start](notes/maya-env-disable.md)
 * [Useful Linux Commands](notes/linux-useful.md)
 * [Adding a new hard drive in Linux](notes/linux-new-drive.md)
+* [Swapping a drive in a MergerFS setup](notes/merger-fs.md)
